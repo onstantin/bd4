@@ -1,0 +1,66 @@
+﻿table {
+	border-collapse: collapse;
+}
+td, th {
+	border: 1px solid #f2e8c9; 
+	padding: 3px 20px;
+	height: 51px;
+	color: #505050;
+	background: #ffffe9;
+}
+th {
+	background: #f2e8c9;
+}
+h1, h2, p, a, td, th, span {font-family: arial;}
+h1 {font-size: 20px;}
+h2 {font-size: 16px;}
+form {
+	display: inline-block;
+	margin: 10px 10px 10px 0;
+}
+.editform {
+	margin: 0;
+}
+input, select {			
+	border: 1px solid #f1efcf;
+	padding: 2px 5px;
+	height: 18px;
+}
+select {
+	height: 24px;
+}
+button {
+	background: #ffffe9;
+	border: 1px solid #f1efcf;		
+	height: 24px;
+}
+button:hover {
+	background: #f1efcf;
+	cursor: pointer;
+}
+.add, .del, .edit {
+	border-left: 5px solid #f2e8c9;
+	background: #ffffe9;
+	width: 200px;
+	padding: 3px 10px;
+}
+.add {
+	color: #390;
+}
+.del {
+	color: #e00000;
+}
+.edit {
+	color: #505050;
+}	
+a {
+	color: #505050;
+	border-bottom: 1px solid #f2e8c9;
+	text-decoration: none;
+}
+a:hover {
+	border-bottom: none;
+}
+td span {
+	color: #aaa;
+}
